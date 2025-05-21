@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy 9th jonacil ku</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="heart-container">
+    <div class="heart"></div>
+    <div class="heart delay1"></div>
+    <div class="heart delay2"></div>
+    <div class="heart delay3"></div>
+  </div>
+
+  <div class="letter-container">
+    <div class="letter">
+      <button class="photo-button" onclick="showPopup()">
+        <img src="/IMG_20250330_183958_636.jpg" alt="Us Together" class="photo" />
+        <span class="tap-text">Tap me</span>
+      </button>
+
+      <h1>Happy 9th Monthsary</h1>
+      <p>Hi bibi, I don’t really know how to start this, but first of all, Happy 9th Monthsary to us! We’re getting so close to our one year mark, and that makes me really happy. I’m truly grateful I met you because you’ve always given your all just to make me smile. I’ve never once regretted choosing you to be my wife. You constantly make me feel loved and special in ways I never imagined. Sometimes, I wonder if I even deserve you because bibi, you are absolutely perfect for me. You’ve made my world brighter, better, and more complete, and I’m so thankful to have you by my side.</p>
+
+      <p>Secondly, this month has been really heavy for me. It’s the only month where I’ve cried so often from the weight of everything. Most days, I don’t even know what to do especially when we’re not together. Everything feels heavier when you’re not around. On top of that, family issues have made home feel less like home. I rarely smile and some nights I cry myself to sleep. But even in those moments, I’m thankful for you. Even when we’re apart, you always make me feel your presence. That’s why no matter how heavy things get, I can still smile because I have the best girlfriend and wife. I have you.</p>
+
+      <p>Third, I’m sorry if you’ve had to deal with my mood, or if I’ve been naughty or made you cry. Sometimes it’s hard for me to control it with everything I carry but that’s no excuse. I know I have faults, and I understand when you get upset with me. But don’t worry, your siji is working on it. I’m trying to be better every day because I want to be perfect for you so someone you’ll be proud to call your husband.</p>
+
+      <p>Fourth, I truly appreciate everything you do for us. Every little effort you make proves you’re wife material. You know how to love, care, and support me in ways no one else ever has. I can’t wait to live that life with you. That’s why I hope you always choose me, every single time. Do you understand me, my wife?</p>
+
+      <p>So bibi, again, Happy Monthsary to us! Maybe this is the first time I’ve made something like this, but this is the project I told you about. It might be simple, but I really tried to learn and build this for you. I hope you appreciate it, because it’s from my heart. I really want to celebrate this special day with you tomorrow.</p>
+
+      <p>Lastly, thank you for always choosing me. I know I’m not always the best boyfriend, but you still choose me "and I appreciate that with all my heart. I pray we never go through that pain again, because honestly bibi, I don’t know what I’d do if I ever lost you.</p>
+
+      <p>Happy Monthsary again, bibi! I pray for many more months, years, and a lifetime with you. Your siji loves you so much. Don’t ever doubt it. I’ll always choose you, fight for you, protect you, and stand by you. Please promise you’ll never leave me, bibi.</p>
+
+      <h1>I love you so much, my Uno!</h1>
+      <p class="closing">Forever yours,<br />Your handsome husband, sijiiiiii</p>
+    </div>
+  </div>
+
+  <div class="popup" id="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <h2>My Favorite Picture of Us</h2>
+      <p>This picture reminds me why this year’s birthday was the best. It was the first time I took you on a date where I paid for everything. I planned it for so long, and even though it took a while to happen, I’m grateful it did. Celebrating my birthday with you made me smile more than ever. Thank you for making it unforgettable. I love you so much, bibi!</p>
+      <div class="popup-hearts">
+        <div class="popup-heart"></div>
+        <div class="popup-heart delay1"></div>
+        <div class="popup-heart delay2"></div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  window.addEventListener('click', () => {
+    document.getElementById('loveAudio').play();
+  }, { once: true });
+</script>
+  <script>
+    function showPopup() {
+      document.getElementById("popup").style.display = "flex";
+    }
+    function closePopup() {
+      document.getElementById("popup").style.display = "none";
+    }
+  </script>
+</body>
+</html>
